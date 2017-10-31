@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ProBootstrap:Frame &mdash; Free Bootstrap Theme, Free HTML5 Template, Free Responsive Bootstrap Website Template</title>
-    <meta name="description" content="Free Bootstrap Theme by ProBootstrap.com">
-    <meta name="keywords" content="Free website templates, Free bootstrap themes, Free template, Free bootstrap, Free website template">
+    <title>MobileTrain</title>
     
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/customeStyle.css">
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -28,7 +27,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html" title="ProBootstrap:Frame">Mobile Train</a>
+          <img id="logoID" src="img/logo.png" alt="logo.png">
+          <a class="navbar-brand" href="index.html" title="Mobile Train">MobileTrain</a>
+
         </div>
 
         <div id="navbar-collapse" class="navbar-collapse collapse">
@@ -42,11 +43,12 @@
         </div>
       </div>
     </nav>
-    <section class="probootstrap-hero prohttp://localhost/probootstrap/frame/#featuresbootstrap-slant" style="background-image: url(img/image_1.jpg);" data-section="home" data-stellar-background-ratio="0.5">
+    <section id="introID" class="probootstrap-hero prohttp://localhost/probootstrap/frame/#featuresbootstrap-slant" style="background-image: url(img/image_1.jpg);" data-section="home" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row intro-text">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <h1 class="probootstrap-heading probootstrap-animate">Some slogan about the project</h1>
+          <div id="sloganID" class="col-md-8 col-md-offset-2 text-center">
+            <h1 class="probootstrap-heading probootstrap-animate">Find Your Train With Your SmartPhone...</h1>
+            <img id="phoneID" src="img/phone.png" alt="google map">
           </div>
         </div>
       </div>
@@ -59,7 +61,12 @@
             <div class="probootstrap-service-item probootstrap-animate" data-animate-effect="fadeIn">
               <span class="icon icon-globe2"></span>
               <h2>Crowdsourcing</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <p>
+                Crowdsourcing is the process of getting work or funding, usually online, from a crowd of
+                people. The idea is to take work and outsource it to a crowd of workers. This app takes users 
+                GPS coordinates to track trains. It does not use anything else. Therefore, app users is the 
+                crowd this app uses to gather information.
+              </p>
               
             </div>
           </div>
@@ -67,7 +74,11 @@
             <div class="probootstrap-service-item probootstrap-animate" data-animate-effect="fadeIn">
               <span class="icon icon-map-pin"></span>
               <h2>Live Tracking</h2>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <p>
+                Real-time locating systems (RTLS) are used to automatically identify and track the location
+                of objects or people in real time. You just need a smartphone with GPS capability. This allows the
+                train location to be displayed against a map backdrop in real time by tracking app users.
+              </p>
               
             </div>
           </div>
@@ -75,8 +86,12 @@
             <div class="probootstrap-service-item probootstrap-animate" data-animate-effect="fadeIn">
               <span class="icon icon-lightbulb"></span>
               <h2>Smart Idea</h2>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              
+              <p>
+                Since this app does not use any device to track trains, this concept can also be used to track
+                any other vehicles as well. It certainly much cheaper than tracking using "GPS Tracking Unit".
+                There isn't much rules and regulations that affect to this legally. Only thing we need is
+                users permission to get his/her GPS coordinates when installing this application.
+              </p>              
             </div>
           </div>
         </div>
@@ -88,21 +103,44 @@
         <div class="row text-center mb100">
           <div class="col-md-8 col-md-offset-2 probootstrap-section-heading">
             <h2 class="mb30 text-black probootstrap-heading">Problem</h2>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+            <p>
+              Trains are perhaps the most reliable form of transport. They are not only cheap but are 
+              also very convenient for long distances. Despite the fact that trains are relatively new 
+              to Kashmir, they have become the most used form of transport. Everyday hundreds of 
+              commuters board these metallic boxes to reach their various destinations. Some people even
+              consider them to be a blessing given the increasing frequency in the number of traffic jams.  
+            </p>
+            <p>
+              However, this efficient system of transportation too has some disadvantages. Given the heavy 
+              rush of passengers and in absence of any crowd management, overcrowding in the trains has become 
+              a nightmare for the daily commuters. Lack of passenger facilities, like washrooms, enough ticket 
+              counters etc. are also causing inconveniences to the public. 
+            </p>
+            <p>
+              Here we addressed one of the major issues, train delays. So far, the only way to know about train delays is,
+              going to the railway station and listening to the announcements going on there. Instead, using this app,
+              anyone can find where their train is from anywhere. If it seems to be a train delay, then user can make a decision
+              either to wait for the train or to use another transport method.
+            </p>
           </div>
         </div>
         <!-- END row -->
         <div class="row mb100">
           <div class="col-md-8 col-md-pull-2 probootstrap-animate">
-            <p><img src="img/img_showcase_1.jpg" alt="Free Template by ProBootstrap.com" class="img-responsive probootstrap-shadow"></p>
+            <p><img src="img/station.jpg" alt="Free Template by ProBootstrap.com" class="img-responsive probootstrap-shadow"></p>
           </div>
           <div class="col-md-4 col-md-pull-1 probootstrap-section-heading">
-            <h3 class="text-primary probootstrap-heading-2">Big Benefits for train passenger</h3>
-            <p><p>somethiong about here....</p></p>
+            <h3 class="text-primary probootstrap-heading-2">Big Benefits for train passengers...</h3>
             <ul class="probootstrap-list">
-              <li class="probootstrap-check">point 1</li>
-              <li class="probootstrap-check">point 2</li>
-              <li class="probootstrap-check">point 3</li>
+              <li class="probootstrap-check">
+                Find your train from anytime anywhere...
+              </li>
+              <li class="probootstrap-check">
+                Get notifications about train delays...
+              </li>
+              <li class="probootstrap-check">
+                Share your information with others via chat function...
+              </li>
             </ul>
           </div>
         </div>
@@ -116,7 +154,18 @@
         <div class="row text-center mb100">
           <div class="col-md-8 col-md-offset-2 probootstrap-section-heading">
             <h2 class="mb30 text-black probootstrap-heading">Concept </h2>
-            <p>explanation about the concept</p>
+            <p>MobileTrain is a mobile application which tracks trains using app users GPS locations data. Firebase databse already has a table 
+              which contains GPS coordinates of railway tracks. When the user opens the app, his/her GPS coordinates are sent to the database for every 30 seconds.
+              By analysing those data it finds a pattern of how those coordinates vary with the time. If users GPS coordinates
+              variation matches with railway tracks coordinates, then it decides those users are on a train and
+              it displays that location as the current location of that train. 
+            </p>
+            <p>
+              This application does not use any device to track trains. It only uses GPS coordinates from app users. 
+              Therefore, passengers can find where the trains is, without going to the railway station itself. If 
+              someone has registered in the system, they will be notified about train delays in advanced.
+              Chat functionality helps users to share their experiences with others.
+            </p>
           </div>
         </div>
         <!-- END row -->
@@ -129,24 +178,29 @@
         <div class="row text-center mb100">
           <div class="col-md-8 col-md-offset-2 probootstrap-section-heading">
             <h2 class="mb30 text-black probootstrap-heading">Implementation</h2>
-            <p>Tools and technologies that use for the project.</p>
+            <p>Tools and technologies that used for the project</p>
           </div>
         </div>
         <!-- END row -->
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="probootstrap-testimonial">
-              <p>Ionic</p>
+              <img src="img/ionic.png" alt="ionic">Ionic
               <blockquote>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                <p>Ionic is a complete open-source SDK for hybrid mobile app development iOS, Android, Windows Phone, and other mobile platforms.
+                    Hybrid applications are built for cross-platform use, using web tools. This means you can develop the application once and deploy 
+                    it to multiple platforms without having to change the code base.
+                </p>
               </blockquote>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="probootstrap-testimonial">
-              <p>Firebase</p>
+              <img src="img/firebase.png" alt="firebase"> Firebase
               <blockquote>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <p>Firebase is a Backend-as-a-Service — BaaS — which grew up into a next-generation app-development platform on Google Cloud Platform. This application uses 
+                  realtime data (GPS location from users) and firebase is specially desinged for realtime databses. Firebase sends you new data as soon as it’s updated. 
+                </p>
               </blockquote>
             </div>
           </div>
@@ -169,7 +223,7 @@
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-12">
-                <p><img src="img/laptop_1.jpg" alt="Free Template by ProBootstrap.com" class="img-responsive"></p>
+                <p><img src="img/future.png" alt="Free Template by ProBootstrap.com" class="img-responsive"></p>
               </div>
             </div>
             <div class="row">

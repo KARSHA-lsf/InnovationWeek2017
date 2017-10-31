@@ -5,7 +5,7 @@
  * Author URL: https://probootstrap.com
  * License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
  */
-@font-face {
+ @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/fonts/icomoon.eot?1z9v6x");
   src: url("../fonts/icomoon/fonts/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../fonts/icomoon/fonts/icomoon.ttf?1z9v6x") format("truetype"), url("../fonts/icomoon/fonts/icomoon.woff?1z9v6x") format("woff"), url("../fonts/icomoon/fonts/icomoon.svg?1z9v6x#icomoon") format("svg");
@@ -1205,4 +1205,9 @@ a:hover, a:focus, a:active {
   .img-xs-responsive {
     max-width: 100%;
   }
+}
+
+#logoID{
+  width: 150px;
+  height: auto;
 }
